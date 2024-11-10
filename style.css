@@ -44,3 +44,38 @@ form h2 {
     position: relative;
     margin-bottom: 15px;
 }
+
+.radio {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form-control textarea {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    border:  none;
+    padding: 10px;
+    background-color: salmon;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.3 ease;
+}
