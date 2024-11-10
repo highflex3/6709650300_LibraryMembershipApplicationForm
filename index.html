@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library Register Form</title>
+</head>
+<body>
+    <div class="container">
+        <img src="" alt="">
+        <form>
+            <h2>Library Register</h2>
+            <div class="form-control">
+                <label for="fullname">Name *</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-control">
+                <label for="gender">Gender *</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        
+            <div class="form-control">
+                <label for="student_id">Student ID *</label>
+                <input type="text" id="student_id" placeholder="Enter your Student ID" required>
+            </div>
+        
+            <div class="form-control">
+                <label for="faculty">Faculty *</label>
+                <input type="text" id="faculty" placeholder="Enter your faculty" required>
+            </div>
+        
+            <div class="form-control">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+        
+            <div class="form-control">
+                <label for="dob">Date of Birth *</label>
+                <input type="date" id="dob" required>
+            </div>
+        
+            <div class="form-control">
+                <label for="book_type">Favorite genres of books *</label>
+                <input type="text" id="book_type" placeholder="Enter your genres" required>
+            </div>
+        
+            <div class="radio">
+                <label>Newsletter *</label>
+                <input type="radio" id="sub_yes" name="Newsletter" value="yes" required >
+                <label for="sub_yes">Accept</label>
+                <input type="radio" id="sub_no" name="Newsletter" value="no" required >
+                <label for="sub_no">Decline</label>
+            </div>
+        
+            <button>Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
