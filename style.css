@@ -30,3 +30,17 @@ body {
     height: 300px;
     margin-top: 170px;
 }
+
+.container form {
+    width: 100%;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    position: relative;
+    margin-bottom: 15px;
+}
